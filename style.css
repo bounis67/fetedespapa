@@ -1,0 +1,48 @@
+@font-face {
+  font-family: baloo;
+  src: url(fonts/BalooTammudu2-Medium.ttf);
+}
+body {
+  background-image: url(image/unnamed.jpg);
+  background-position: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  /* background: scroll; */
+}
+h1 {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 40px;
+  font-family: baloo;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: baloo;
+}
+
+img {
+  width: 600 px;
+  height: 500px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 50px 18px #000000;
+  box-shadow: 5px 5px 50px 18px #000000;
+}
+
+#p1 {
+  padding-top: 50px;
+}
+/* #bebe {
+  margin-top: 50px;
+} */
+
+#exemple {
+  font-size: 40px;
+}
