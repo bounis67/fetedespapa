@@ -5,6 +5,8 @@
 body {
   background-image: url(image/unnamed.jpg);
   background-position: fixed;
+  background-attachment: fixed;
+  /* position: fixed; */
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,4 +51,34 @@ img {
 
 #ban {
   color: red;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+}
+
+li,
+a {
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  background-color: #000000;
+  text-decoration: none;
+  font-family: baloo;
+  margin-left: 225px;
+  border-radius: 20px;
+}
+
+il1 {
+  margin-left: 225px;
+}
+
+#test {
+  color: #7a220c;
 }
